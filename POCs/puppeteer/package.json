@@ -1,0 +1,26 @@
+{
+  "name": "example-yarn-package",
+  "version": "1.0.0",
+  "description": "An example package to demonstrate Yarn",
+  "main": "takeScreenShot.js",
+  "repository": {
+    "url": "github.com/yarnpkg/example-yarn-package",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Yarn Contributors",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "chromedriver": "^2.34.0",
+    "lodash": "^4.16.2",
+    "webdriverio": "^4.9.11"
+  },
+  "devDependencies": {
+    "puppeteer": "^0.13.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
