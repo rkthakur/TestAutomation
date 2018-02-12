@@ -18,7 +18,8 @@
     "webdriverio": "^4.9.11"
   },
   "devDependencies": {
-    "puppeteer": "^0.13.0"
+    "puppeteer": "^0.13.0",
+    "xml2js": "^0.4.19"
   },
   "jest": {
     "testEnvironment": "node"

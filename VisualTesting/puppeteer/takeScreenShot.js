@@ -1,6 +1,8 @@
 'use strict';
 const puppeteer = require('puppeteer');
 const devices = require('puppeteer/DeviceDescriptors');
+const xml2js = require('xml2js');
+var parser = new xml2js.Parser();
 (async() => {
 const browser = await puppeteer.launch();
 const page = await browser.newPage();
